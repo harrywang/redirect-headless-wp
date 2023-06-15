@@ -1,4 +1,4 @@
 <?php
     /* Redirect browser */
-    header("Location: https://www.yourdomain.com");
+    header("Location: https://replicable.art/learn");
     exit;

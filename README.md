@@ -1,6 +1,6 @@
 # About
 
-This is an "empty" Wordpress theme you can install to redirect the headless Wordpress frontend while keeping the `wp-admin` and API working.
+This is an "empty" Wordpress theme you can install to redirect the headless Wordpress frontend while keeping the Admin login at `/wp-admin` and API endpoint at `/graphql` working.
 
 # How to use
 
