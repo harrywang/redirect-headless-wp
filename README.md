@@ -6,17 +6,19 @@ This is an "empty" Wordpress theme you can install to redirect the headless Word
 
 For example, I created a headless wordpress site using https://www.wpgraphql.com. 
 
-- My API is working at https://www.mywordpress.com/graphql 
-- My custom frontend (using Next.js) is working at https://blog.mydomian.com. 
-- I want to redirect https://www.mywordpress.com to https://blog.mydomian.com
-- I want to log into https://www.mywordpress.com/wp-admin to manage my content
+- My API is working at https://blog.mydomain.com/graphql 
+- My custom frontend (using Next.js) is working at https://mydomain.com/blog
+- I log into https://blog.mywordpress.com/wp-admin to manage my content
+- I don't want users to see my content at https://blog.mydomian.com, which should be seen at https://mydomain.com/blog
+- I redirect https://blog.mywordpress.com to https://mydomian.com/blog
+
 
 Do the following:
 
-1.  Open `index.php` and replace `https://blog.mydomain.com` with the URL you want to redirect to.
+1.  Open `index.php` and replace `https://mydomain.com/blog` with the URL you want to redirect to.
 
 ```
-header("Location: https://blog.mydomain.com");
+header("Location: https://mydomain.com/blog");
 ```
 
 2. Zip the folder and upload the zip as a Wordpress theme and activate it - that's it!
