@@ -28,5 +28,5 @@ header("Location: https://mydomain.com/blog");
 
 # Credits
 
-- I borrowed the code from this post: https://serverfault.com/questions/853179/redirect-all-urls-to-the-root-except-wp-admin-and-wp-json
+- I borrowed the code from this post: https://wordpress.stackexchange.com/questions/17969/disable-front-end-to-use-as-cms-only
 - The theme screenshot is from https://replicable.art/asset/647b4d91414f1bb93778ab94, which is generated using AI and Stable Diffusion
