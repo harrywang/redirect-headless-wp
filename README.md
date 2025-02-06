@@ -25,6 +25,7 @@ header("Location: https://mydomain.com/blog");
 
 <img width="648" src="https://github.com/harrywang/redirect-headless-wp/assets/595772/0e8acac4-4c94-4772-a265-0bab91ebce96">
 
+Note: `functions.php` is used to enable featured images.
 
 # Credits
 
